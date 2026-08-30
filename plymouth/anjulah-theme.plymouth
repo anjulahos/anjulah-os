@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Anjulah Theme
+Description=Anjulah OS Custom Theme with Wallpaper
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/anjulah-theme
+ScriptFile=/usr/share/plymouth/themes/anjulah-theme/anjulah-theme.script

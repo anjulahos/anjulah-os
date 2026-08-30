@@ -1,0 +1,36 @@
+wallpaper_image = Image("wallpaper.png");
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+resized_wallpaper = wallpaper_image.Scale(screen_width, screen_height);
+wallpaper_sprite = Sprite(resized_wallpaper);
+wallpaper_sprite.SetZ(0);
+
+progress_box_width = screen_width * 0.4;
+progress_box_height = 6;
+progress_box_x = (screen_width - progress_box_width) / 2;
+progress_box_y = screen_height * 0.85;
+
+progress_box = Image(progress_box_width, progress_box_height);
+progress_box.SetColor(0.4, 0.4, 0.4, 0.6);
+progress_sprite = Sprite(progress_box);
+progress_sprite.SetPosition(progress_box_x, progress_box_y);
+progress_sprite.SetZ(10);
+
+progress_bar_width = 0;
+progress_bar_height = progress_box_height;
+progress_bar = Image(progress_bar_width, progress_bar_height);
+progress_bar.SetColor(1.0, 1.0, 1.0, 1.0);
+progress_bar_sprite = Sprite(progress_bar);
+progress_bar_sprite.SetPosition(progress_box_x, progress_box_y);
+progress_bar_sprite.SetZ(11);
+
+fun refresh_callback ()
+{
+    progress_bar_width = progress_box_width * (status / 100.0);
+    if (progress_bar_width < 1) progress_bar_width = 1;
+    progress_bar = Image(progress_bar_width, progress_bar_height);
+    progress_bar.SetColor(1.0, 1.0, 1.0, 1.0);
+    progress_bar_sprite.SetImage(progress_bar);
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);

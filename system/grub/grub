@@ -1,0 +1,6 @@
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="Anjulah OS"
+GRUB_BACKGROUND="/usr/share/icons/desktop-base/anjulah-grub-wallpaper.png"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX=""

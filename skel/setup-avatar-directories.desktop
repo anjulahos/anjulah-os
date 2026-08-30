@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Setup Avatar Directories
+Exec=/usr/local/bin/setup-avatar-directories.sh
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

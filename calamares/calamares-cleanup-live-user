@@ -1,0 +1,15 @@
+#!/bin/bash
+# Calamares Cleanup Live User
+# Remove live session user and related config after installation
+# Part of Anjulah OS 1.0
+# Created by: Cecep Purwana
+# License: GPL-3.0-or-later
+CHROOT=$(mount | grep proc | grep calamares | awk '{print $3}' | sed -e "s#/proc##g")
+LIVE_USER=$(cat $CHROOT/etc/live/config.conf.d/0010-anjulah.conf | grep username | cut -d= -f2)
+userdel -r --root $CHROOT $LIVE_USER 2>/dev/null
+rm -f $CHROOT/etc/sudoers.d/00-$LIVE_USER-nopasswd
+rm -f $CHROOT/var/lib/AccountsService/users/$LIVE_USER
+rm -f $CHROOT/var/lib/AccountsService/icons/$LIVE_USER
+sed -i '/^AutomaticLogin/d' $CHROOT/etc/gdm3/custom.conf
+sed -i '/^AutomaticLogin/d' $CHROOT/etc/gdm3/daemon.conf
+rm -f $CHROOT/etc/live/config.conf.d/0010-anjulah.conf

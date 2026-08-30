@@ -1,0 +1,5 @@
+[org/gnome/shell/extensions/arc-menu]
+suppress-update-notification=true
+
+[org/gnome/shell/extensions/dash-to-panel]
+suppress-update-notification=true

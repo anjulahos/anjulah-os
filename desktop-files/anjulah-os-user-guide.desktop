@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Anjulah OS Guide
+Comment=User guide and keyboard shortcuts
+Exec=xdg-open /usr/local/share/anjulah-os-guide/index.html
+Icon=/usr/local/share/anjulah-os-guide/icon.png
+Type=Application
+Categories=System;Documentation;
+Keywords=guide;help;panduan;bantuan;
+NoDisplay=false
+Terminal=false

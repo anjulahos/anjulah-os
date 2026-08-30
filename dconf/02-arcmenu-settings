@@ -1,0 +1,21 @@
+[org/gnome/shell/extensions/arcmenu]
+custom-menu-button-icon='open-menu-symbolic'
+custom-menu-button-text='Menu'
+hide-overview-on-startup=true
+menu-button-appearance='Text_Icon'
+menu-button-bg-color=(true, 'rgb(8,58,109)')
+menu-button-fg-color=(true, 'rgb(242,242,242)')
+menu-button-hover-bg-color=(false, 'rgba(242,242,242,0.15)')
+menu-button-icon='Custom_Icon'
+menu-button-left-click-action='ArcMenu'
+menu-item-active-bg-color='rgb(26,95,180)'
+menu-item-hover-bg-color='rgb(53,132,228)'
+menu-layout='Default'
+multi-monitor=false
+override-menu-theme=true
+prefs-visible-page=0
+recently-installed-apps=@as []
+search-entry-border-radius=(true, 25)
+update-notifier-enabled=false
+update-notifier-project-version=65
+pinned-apps=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'timeshift.desktop'}, {'id': 'org.gnome.DejaDup.desktop'}, {'id': 'anjulah-os-user-guide.desktop'}]

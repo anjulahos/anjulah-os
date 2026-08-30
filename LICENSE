@@ -1,0 +1,65 @@
+Anjulah OS - License
+
+Copyright (C) 2026 Anjulah OS Contributors
+https://www.anjulah.com
+https://github.com/anjulahos/anjulah-os
+
+--------------------------------------------------------------------------------
+DUAL LICENSE
+--------------------------------------------------------------------------------
+
+This repository contains works under two different licenses:
+
+1. CODE, SCRIPTS, AND CONFIGURATION FILES
+   Licensed under the GNU General Public License v3.0 or later (GPL-3.0+)
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program. If not, see:
+   https://www.gnu.org/licenses/gpl-3.0.txt
+
+2. ARTWORK, WALLPAPERS, LOGOS, AND AVATARS
+   Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+   International (CC BY-NC-SA 4.0)
+
+   You are free to:
+   - Share: copy and redistribute the material in any medium or format
+   - Adapt: remix, transform, and build upon the material
+
+   Under the following terms:
+   - Attribution: You must give appropriate credit
+   - NonCommercial: You may not use the material for commercial purposes
+   - ShareAlike: If you remix, you must distribute under the same license
+
+   Full legal text:
+   https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+--------------------------------------------------------------------------------
+FILE LICENSE MAP
+--------------------------------------------------------------------------------
+
+CC BY-NC-SA 4.0 (artwork):
+  - assets/ (wallpapers, logos, avatars)
+  - gnome/cc-avatar-chooser.ui (modified GNOME UI file)
+
+GPL-3.0+ (code and configuration):
+  - scripts/
+  - calamares/
+  - dconf/
+  - plymouth/
+  - polkit/
+  - system/
+  - skel/
+  - desktop-files/
+  - guide/
+  - *.md (documentation)
+  - .gitignore

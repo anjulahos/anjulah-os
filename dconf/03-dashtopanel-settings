@@ -1,0 +1,33 @@
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover=true
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=0
+appicon-padding=4
+desktop-line-custom-color='rgb(46,194,126)'
+desktop-line-use-custom-color=true
+dot-position='BOTTOM'
+extension-version=9999
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=false
+panel-anchors='{"LEN-0x00012c7a":"MIDDLE"}'
+panel-element-positions='{"LEN-0x00012c7a":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"LEN-0x00012c7a":100}'
+panel-positions='{"LEN-0x00012c7a":"BOTTOM"}'
+panel-sizes='{"LEN-0x00012c7a":37}'
+prefs-opened=true
+primary-monitor='LEN-0x00012c7a'
+show-showdesktop-hover=false
+showdesktop-button-width=14
+trans-bg-color='#1a5fb4'
+trans-panel-opacity=1.0
+trans-use-custom-bg=true
+trans-use-custom-gradient=false
+trans-use-custom-opacity=false
+trans-use-dynamic-opacity=false
+window-preview-title-position='TOP'
+context-menu-entries='[{"title": "Terminal", "cmd": "TERMINALSETTINGS"}, {"title": "System monitor", "cmd": "gnome-system-monitor"}, {"title": "Files", "cmd": "nautilus"}]'
+
+
+
+[org/gnome/shell]
+favorite-apps=['calamares-install-debian.desktop', 'firefox-esr.desktop', 'timeshift-gtk.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Software.desktop', 'anjulah-os-user-guide.desktop', 'anjulah-updater.desktop']

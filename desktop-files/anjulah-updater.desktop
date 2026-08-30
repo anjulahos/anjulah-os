@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Anjulah Update
+Comment=Update Anjulah OS system
+Exec=gnome-terminal --title="Anjulah Update" -- bash -c "sudo apt update && sudo apt upgrade -y; exec bash"
+Icon=anjulah-update
+Terminal=false
+Type=Application
+Categories=System;Settings;
+Keywords=update;upgrade;system;

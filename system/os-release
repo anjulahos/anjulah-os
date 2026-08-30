@@ -1,0 +1,11 @@
+PRETTY_NAME="Anjulah OS 1.0 (Genesis)"
+NAME="Anjulah OS"
+VERSION_ID="13"
+VERSION="1.0"
+VERSION_CODENAME=genesis
+DEBIAN_VERSION_FULL=13.5
+ID=anjulah-os
+ID_LIKE=debian
+HOME_URL="https://www.anjulah.com"
+SUPPORT_URL="https://www.anjulah.com/support"
+BUG_REPORT_URL="https://www.anjulah.com/bugs"

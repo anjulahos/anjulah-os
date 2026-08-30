@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjulah OS Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="header-logo">
+      <img src="icon.png" alt="Anjulah OS">
+      <h1>Anjulah OS Guide</h1>
+    </div>
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="switchLang('en')">EN</button>
+      <button id="btn-id" onclick="switchLang('id')">ID</button>
+    </div>
+  </div>
+  <div class="hero lang-en">
+    Welcome to Anjulah OS! This guide will help you get the most out of your
+    system. Thank you for choosing Anjulah OS &#8212; we hope you enjoy the experience.
+  </div>
+  <div class="hero lang-id" style="display:none;">
+    Selamat datang di Anjulah OS! Panduan ini akan membantu Anda memanfaatkan
+    sistem dengan optimal. Terima kasih telah memilih Anjulah OS &#8212; semoga
+    pengalaman Anda menyenangkan.
+  </div>
+  <div class="card lang-en">
+    <h2>Secure Your System</h2>
+    <p>We strongly recommend setting up system protection and data backup to keep your system and personal files safe.</p>
+    <h3>Protect Your System with Timeshift</h3>
+    <p>Timeshift creates system snapshots that allow you to restore your entire system to a previous state. If your system fails to boot, you can restore it using Timeshift from this Anjulah OS live USB &#8212; a recommended and reliable recovery method.</p>
+    <h3>Back Up Your Personal Data with Deja Dup</h3>
+    <p>Deja Dup helps you back up important personal files. You can store backups to cloud services like Google Drive, or to external storage devices such as USB drives and hard disks &#8212; a recommended practice to prevent data loss.</p>
+  </div>
+  <div class="card lang-id" style="display:none;">
+    <h2>Amankan Sistem Anda</h2>
+    <p>Kami sangat menyarankan untuk menyiapkan perlindungan sistem dan pencadangan data agar sistem dan file pribadi Anda tetap aman.</p>
+    <h3>Lindungi Sistem dengan Timeshift</h3>
+    <p>Timeshift membuat snapshot sistem yang memungkinkan Anda mengembalikan sistem ke kondisi sebelumnya. Jika sistem gagal boot, Anda dapat melakukan restore menggunakan Timeshift melalui USB live Anjulah OS ini &#8212; metode pemulihan yang direkomendasikan dan terpercaya.</p>
+    <h3>Cadangkan Data Pribadi dengan Deja Dup</h3>
+    <p>Deja Dup membantu Anda mencadangkan file pribadi yang penting. Anda dapat menyimpan cadangan ke layanan cloud seperti Google Drive, atau ke media penyimpanan eksternal seperti USB flash drive dan hard disk &#8212; praktik yang direkomendasikan untuk mencegah kehilangan data.</p>
+  </div>
+  <div class="card lang-en">
+    <h2>Changing Your Avatar</h2>
+    <p>You can change your profile picture easily. Simply copy a PNG image (under 500 KB) to the <code>~/Pictures/faces/</code> folder, then open <strong>Settings > Users</strong> and click your avatar to select from the grid.</p>
+  </div>
+  <div class="card lang-id" style="display:none;">
+    <h2>Mengganti Avatar</h2>
+    <p>Anda dapat mengubah foto profil dengan mudah. Cukup salin gambar PNG (di bawah 500 KB) ke folder <code>~/Pictures/faces/</code>, lalu buka <strong>Pengaturan > Pengguna</strong> dan klik avatar Anda untuk memilih dari grid.</p>
+  </div>
+  <div class="card lang-en">
+    <h2>Keyboard Shortcuts</h2>
+    <table>
+      <tr><th>Shortcut</th><th>Function</th></tr>
+      <tr><td>Super</td><td>Open ArcMenu</td></tr>
+      <tr><td>Super+E</td><td>File Manager</td></tr>
+      <tr><td>Super+R</td><td>Terminal</td></tr>
+      <tr><td>Super+D</td><td>Show Desktop</td></tr>
+      <tr><td>Super+A</td><td>App Grid</td></tr>
+      <tr><td>Super+L</td><td>Lock Screen</td></tr>
+      <tr><td>Ctrl+Alt+Del</td><td>System Menu</td></tr>
+      <tr><td>Ctrl+Shift+Esc</td><td>System Monitor</td></tr>
+      <tr><td>Alt+Tab</td><td>Switch Windows</td></tr>
+      <tr><td>Shift+Alt+Tab</td><td>Switch Windows (Reverse)</td></tr>
+      <tr><td>Alt+F4</td><td>Close Window</td></tr>
+      <tr><td>Print</td><td>Screenshot</td></tr>
+      <tr><td>Alt+Print</td><td>Screenshot Window</td></tr>
+      <tr><td>Super+Print</td><td>Screenshot UI</td></tr>
+    </table>
+  </div>
+  <div class="card lang-id" style="display:none;">
+    <h2>Pintasan Keyboard</h2>
+    <table>
+      <tr><th>Pintasan</th><th>Fungsi</th></tr>
+      <tr><td>Super</td><td>Buka ArcMenu</td></tr>
+      <tr><td>Super+E</td><td>Pengelola Berkas</td></tr>
+      <tr><td>Super+R</td><td>Terminal</td></tr>
+      <tr><td>Super+D</td><td>Tampilkan Desktop</td></tr>
+      <tr><td>Super+A</td><td>Grid Aplikasi</td></tr>
+      <tr><td>Super+L</td><td>Kunci Layar</td></tr>
+      <tr><td>Ctrl+Alt+Del</td><td>Menu Sistem</td></tr>
+      <tr><td>Ctrl+Shift+Esc</td><td>System Monitor</td></tr>
+      <tr><td>Alt+Tab</td><td>Pindah Jendela</td></tr>
+      <tr><td>Shift+Alt+Tab</td><td>Pindah Jendela (Terbalik)</td></tr>
+      <tr><td>Alt+F4</td><td>Tutup Jendela</td></tr>
+      <tr><td>Print</td><td>Tangkapan Layar</td></tr>
+      <tr><td>Alt+Print</td><td>Tangkapan Jendela</td></tr>
+      <tr><td>Super+Print</td><td>Tangkapan UI</td></tr>
+    </table>
+  </div>
+  <div class="card lang-en">
+    <h2>Help & Support</h2>
+    <p>Visit the official Anjulah OS website for more information, guides, and support.</p>
+    <br>
+    <a href="https://www.anjulah.com" style="padding:10px 20px;background-color:#5dade2;color:#fff;text-decoration:none;border-radius:4px;">Visit anjulah.com</a>
+  </div>
+  <div class="card lang-id" style="display:none;">
+    <h2>Bantuan & Dukungan</h2>
+    <p>Kunjungi situs web resmi Anjulah OS untuk informasi lebih lanjut, panduan, dan dukungan.</p>
+    <br>
+    <a href="https://www.anjulah.com" style="padding:10px 20px;background-color:#5dade2;color:#fff;text-decoration:none;border-radius:4px;">Kunjungi anjulah.com</a>
+  </div>
+  <div class="footer">
+    &copy; 2026 Anjulah OS &mdash; https://www.anjulah.com
+  </div>
+</div>
+  <script>
+    function switchLang(lang) {
+      var enEls = document.getElementsByClassName("lang-en");
+      var idEls = document.getElementsByClassName("lang-id");
+      for (var i = 0; i < enEls.length; i++) { enEls[i].style.display = "none"; }
+      for (var i = 0; i < idEls.length; i++) { idEls[i].style.display = "none"; }
+      if (lang === "en") {
+        for (var i = 0; i < enEls.length; i++) { enEls[i].style.display = "block"; }
+        document.getElementById("btn-en").className = "active";
+        document.getElementById("btn-id").className = "";
+      } else {
+        for (var i = 0; i < idEls.length; i++) { idEls[i].style.display = "block"; }
+        document.getElementById("btn-id").className = "active";
+        document.getElementById("btn-en").className = "";
+      }
+    }
+  </script>
+</body>
+</html>

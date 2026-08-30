@@ -1,0 +1,39 @@
+---
+componentName:   anjulah
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         Anjulah OS
+    shortProductName:    Anjulah OS
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       Anjulah OS 1.0 Genesis
+    shortVersionedName:  Anjulah OS 1.0
+    bootloaderEntryName: Anjulah OS
+    productUrl:          https://www.anjulah.com
+    supportUrl:          https://www.anjulah.com
+    knownIssuesUrl:      https://www.anjulah.com
+    releaseNotesUrl:     https://www.anjulah.com
+    donateUrl:           https://www.anjulah.com
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "logo-anjulah.png"
+    productIcon:         "logo-anjulah.png"
+    productWelcome:      "wallpaper-a4.png"
+
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
+
+slideshowAPI: 2

@@ -1,0 +1,8 @@
+#!/bin/bash
+# Calamares Fix GRUB Text
+# Replace GRUB distributor text with Anjulah OS after installation
+# Part of Anjulah OS 1.0
+# Created by: Cecep Purwana
+# License: GPL-3.0-or-later
+CHROOT=$(mount | grep proc | grep calamares | awk '{print $3}' | sed -e "s#/proc##g")
+sed -i "s/^GRUB_DISTRIBUTOR=.*/GRUB_DISTRIBUTOR=\"Anjulah OS\"/" $CHROOT/etc/default/grub

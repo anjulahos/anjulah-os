@@ -1,0 +1,6 @@
+---
+type:       "job"
+name:       "cleanup-live-user"
+interface:  "process"
+command:    "/usr/share/calamares/helpers/calamares-cleanup-live-user"
+timeout:    120

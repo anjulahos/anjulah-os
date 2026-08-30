@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-logo img {
+  width: 40px;
+  height: 40px;
+}
+.lang-toggle button {
+  padding: 5px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 1px solid #5dade2;
+  background: transparent;
+  color: #5dade2;
+  border-radius: 4px;
+}
+.lang-toggle button.active {
+  background-color: #5dade2;
+  color: #fff;
+}
+.hero {
+  background-color: #16213e;
+  border-left: 4px solid #5dade2;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+.card {
+  background-color: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  margin-top: 0;
+  color: #5dade2;
+}
+.card ol, .card ul {
+  padding-left: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #0f3460;
+}
+.footer {
+  text-align: center;
+  color: #888888;
+  font-size: 0.9em;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,2 @@
+[org/gnome/shell]
+enabled-extensions=['dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com', 'ding@rastersoft.com']

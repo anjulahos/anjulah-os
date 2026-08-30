@@ -1,0 +1,14 @@
+*.iso
+*.squashfs
+*.md5
+*.sha256
+*.sha512
+.directory
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+.DS_Store
+Thumbs.db

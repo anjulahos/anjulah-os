@@ -1,0 +1,4 @@
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/wallpaper-a3.png'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/wallpaper-a3.png'
+picture-options='zoom'

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Anjulah
+GenericName=Calamares Installer
+Exec=calamares-install-debian
+Comment=Calamares — Installer for Anjulah OS
+Keywords=calamares;system;install;installer
+Icon=install-anjulah
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True

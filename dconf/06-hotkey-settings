@@ -1,0 +1,35 @@
+[org/gnome/settings-daemon/plugins/media-keys]
+home=['<Super>e']
+logout=@as []
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+
+[org/gnome/desktop/wm/keybindings]
+show-desktop=['<Super>d']
+maximize=['<Super>Up']
+unmaximize=['<Super>Down']
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+close=['<Alt>F4']
+switch-panels=['<Ctrl><Alt>Tab', '<Super>Tab']
+panel-main-menu=@as []
+
+[org/gnome/shell/keybindings]
+show-screenshot-ui=['Print']
+screenshot-window=['<Alt>Print']
+screenshot=['<Super>Print']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+name='System Monitor'
+command='gnome-system-monitor'
+binding='<Control><Shift>Escape'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+name='Terminal'
+command='gnome-terminal'
+binding='<Super>r'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+name='Menu Sistem'
+command='/usr/local/bin/power-menu.sh'
+binding='<Control><Alt>Delete'
+

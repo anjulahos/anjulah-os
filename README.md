@@ -19,6 +19,7 @@ Built on Debian, Anjulah OS is a Linux distribution designed to deliver a simple
 **[Download Anjulah OS](https://www.anjulah.com/download)**
 
 Verify your download with the SHA-256 checksum and GPG signature files provided on the download page. The [public key](anjulah-os-public-key.asc) is available in this repository.
+Fingerprint: BF0064CA257ACEF411505F76C91A509A0D931F03
 
 ## System Requirements
 
